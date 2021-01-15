@@ -1,0 +1,35 @@
+shimmy10
+204693352
+Shimon Balsam
+
+
+I discussed the exercise with:
+Noa Rubin, Shaked Weitz and Lab Support.
+
+=============================
+= README for ex8: game.py, play.py
+=============================
+
+===========================
+=  Description: =
+
+Two programs used in order to play a game of Battleship:
+
+The first program is ship.py, which contains different functions, creating a
+ship and specific results for anything that happens to a ship including: moving
+in the correct direction per turn, results of being hit by a bomb and being
+terminated. Furthermore it has functions which help recreate the ship's
+coordinates, damaged cells and intact cells.
+
+The second program is game.py which after initializes the Battleship game using
+a list of ships which were built based on the previous ship.py program, after
+which plays round by round. Each round the user interactively chooses in which
+coordinates to release a bomb, and the ships act accordingly.
+The game continues until all ships are destroyed.
+
+====================================================
+
+==========================================
+= Special Comments =
+
+===========================================
